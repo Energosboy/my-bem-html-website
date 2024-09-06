@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First BEM Page</title>
+    <title>Моя первая BEM страница!</title>
 </head>
 <body>
     <!-- Блок header -->
     <header class="header">
-        <div class="header__logo">My Logo</div>
         <nav class="header__nav">
+        <div class="header__logo"><h1>Добро пожаловать на мою первую BEM страницу!</h1></div>
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Начало</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Обо мне</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -21,15 +21,20 @@
     <!-- Блок main -->
 <main class="content">
     <section class="content__section">
-        <h1 class="content__title">Welcome to My BEM Page</h1>
-        <p class="content__text">This is a simple example of a web page structured
-with BEM methodology.</p>
+        <p class="content__text">Это простой пример веб-страницы, структурированной с помощью методологии БЭМ.</p>
+
+<!-- Моя информация -->
+<section class="content__section">
+    <h3 class="content__section-title">Обо мне</h3>
+    <p class="content__section-text">Здравствуйте! Меня зовут Сергей.
+        Я новичок в веб-разработке и это мой первый сайт, созданный с использованием методологии БЭМ.
+    </p>
     </section>
 </main>
 
     <!-- Блок footer -->
 <footer class="footer">
-    <p class="footer__text">&copy; 2024 My First BEM Page</p>
+    <p class="footer__text">&copy; Моя первая BEM страница</p>
 </footer>
 </body>
 </html>
